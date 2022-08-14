@@ -1,0 +1,308 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,300;1,400;1,500;1,700;1,800;1,900&display=swap");
+* {
+  font-family: "Poppins", sans-serif;
+  margin: 0 auto;
+}
+#container {
+  max-width: 1300px;
+  margin: 0 auto;
+  margin-top: 50px;
+}
+body {
+  background-color: rgba(255, 255, 255, 0.795);
+  max-width: 100%;
+}
+a {
+  text-decoration: none;
+}
+/* start header section */
+.banner-container {
+  background-color: #000;
+  color: #fff;
+  border-radius: 15px;
+  overflow: hidden;
+  width: 100%;
+  max-width: 1300px;
+  height: auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.banner-right h1 {
+  font-size: 70px;
+}
+img {
+  width: 60%;
+}
+.banner-container div {
+  width: 48%;
+}
+.banner-right {
+  margin-left: 70px;
+}
+.banner-left {
+  display: flex;
+  transform: rotate(-35deg);
+}
+.banner-container p {
+  margin-bottom: 20px;
+}
+.banner-container p::after {
+  content: ", the quadrennial international men's football championship contested by the senior national teams of the member associations of FIFA. It is scheduled to take place in Qatar from 21 November to 18 December 2022.";
+}
+
+.watch-now {
+  background-color: rgba(221, 0, 0, 1);
+  color: rgb(255, 255, 255);
+  font-size: 20px;
+  padding: 10px 20px;
+  border-radius: 5px;
+  text-decoration: none;
+}
+.watch-now i {
+  margin-left: 5px;
+}
+
+/* end header section */
+section {
+  margin-top: 50px;
+}
+/* Aside nav bar start */
+aside {
+  width: 20%;
+  background-color: black;
+  border-radius: 9px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  float: left;
+  margin-right: 3%;
+}
+.navigation {
+  margin: 30px 0;
+}
+.navigation a {
+  color: rgb(0, 0, 0);
+  display: block;
+  text-align: center;
+  justify-content: center;
+  text-decoration: none;
+  padding: 15px 30px;
+  margin-top: 20px;
+  background-color: white;
+  border-radius: 9px;
+}
+.active {
+  background-color: red !important;
+  color: white !important;
+}
+/* Aside nav bar end*/
+
+/* Article section start */
+#article {
+  width: 77%;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 10px;
+}
+.content {
+  border-radius: 9px;
+  overflow: hidden;
+  background-color: #fff;
+  border: 1px solid #e8e8e8;
+}
+.content img {
+  width: 100%;
+}
+.discription {
+  margin: 15px;
+}
+.discription p {
+  background-color: rgba(255, 0, 0, 0.726);
+  width: 85px;
+  text-align: center;
+  padding: 5px 5px;
+  border-radius: 5px;
+  margin-bottom: 10px;
+  margin-left: 5px;
+  color: #fff;
+  box-shadow: 5px 3px 6px -3px #888888;
+}
+.discription h3 {
+  margin-bottom: 10px;
+}
+.duration,
+.comment {
+  display: inline;
+  color: rgba(22, 22, 22, 0.7);
+}
+.comment {
+  margin-left: 50px;
+}
+/* Article section end */
+
+/* footer section start */
+#footer {
+  width: 1300px;
+  margin-top: 50px;
+  background-color: #000;
+  width: 100%;
+  height: 400px;
+}
+.footer {
+  width: 80%;
+  margin: 0 auto;
+}
+.web-name p {
+  padding-top: 100px;
+  font-weight: 700;
+  font-size: 40px;
+  text-align: center;
+  color: rgb(119, 58, 58);
+  margin-bottom: 50px;
+}
+.line {
+  width: 100%;
+  height: 1px;
+  background-color: aliceblue;
+}
+.footer-content {
+  display: flex;
+  justify-content: center;
+}
+.footer-content a {
+  padding: 30px;
+  color: white;
+  text-decoration: none;
+}
+.footer-social {
+  font-size: 30px;
+
+  text-align: center;
+  justify-content: center;
+}
+
+.footer-social i {
+  margin-left: 15px;
+  color: white;
+}
+.footer-social i:hover {
+  color: greenyellow;
+}
+
+/* for tab view */
+/* for mobile view */
+
+@media screen and (max-width: 576px) {
+  /* start header section */
+  * {
+    margin: 0 auto;
+    max-width: 576px;
+  }
+  /* .container {
+    max-width: 576px !important;
+    margin-top: 50px !important;
+    width: 80% !important;
+  } */
+  #container {
+    max-width: 576px !important;
+    margin-top: 50px !important;
+    width: 80% !important;
+  }
+  header {
+    max-width: 576px;
+    width: 90%;
+    background-color: #000;
+    color: #fff;
+    border-radius: 15px;
+    overflow: hidden;
+    width: 100%;
+    height: auto;
+    max-width: 576px;
+  }
+  .banner-right h1 {
+    font-size: 40px;
+  }
+  img {
+    width: 80%;
+  }
+  .banner-container {
+    max-width: 576px;
+    width: 70%;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    height: auto;
+  }
+  .banner-container div {
+    margin: 30px;
+  }
+  .banner-right {
+    max-width: 576px !important;
+    width: 100% !important;
+    float: none !important;
+  }
+  .banner-container p::after {
+    content: ".....";
+  }
+  /* end header section */
+
+  .section-container {
+    max-width: 576px;
+  }
+
+  /* Aside nav bar start */
+  aside {
+    width: 100%;
+    background: none !important;
+    border-radius: 0 !important;
+  }
+  .navigation {
+    margin: 30px 0;
+  }
+  .navigation a {
+    color: rgb(0, 0, 0);
+    display: block;
+    text-align: center;
+    justify-content: center;
+    text-decoration: none;
+    padding: 15px 30px;
+    margin-top: 20px;
+    background-color: white;
+    border: 1px solid gray;
+    border-radius: 9px;
+  }
+  /* Aside nav bar end*/
+
+  /* Article section start */
+  #article {
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    gap: 10px;
+  }
+  /* Article section end */
+
+  /* footer section start */
+  #footer {
+    width: 1300px;
+    margin-top: 50px;
+    background-color: #000;
+    width: 100%;
+    height: auto;
+  }
+  .footer {
+    width: 80%;
+    margin: 0 auto;
+  }
+  .footer-content {
+    display: block !important;
+  }
+  .footer-content a {
+    display: block !important;
+    justify-content: center;
+    text-align: center;
+  }
+}

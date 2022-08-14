@@ -1,0 +1,11 @@
+.active {
+  background-color: red !important;
+  color: white !important;
+}
+@media screen and (max-width: 576px) {
+  #container {
+    max-width: 576px !important;
+    margin-top: 50px !important;
+    width: 80% !important;
+  }
+}

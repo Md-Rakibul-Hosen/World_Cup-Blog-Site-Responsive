@@ -1,0 +1,56 @@
+.container {
+  max-width: 1300px !important;
+  margin: 0 auto !important;
+  margin-top: 50px !important;
+}
+.banner-right {
+  margin-left: 70px;
+}
+.active {
+  background-color: red !important;
+  color: white !important;
+}
+section {
+  height: auto !important;
+  width: 1300px;
+}
+.content img {
+  width: 125px !important;
+}
+.box {
+  margin: 10px !important;
+}
+.imgs {
+  display: flex !important;
+  text-align: center !important;
+  align-items: center !important;
+}
+.country {
+  text-align: center !important;
+}
+.germany {
+  float: left !important;
+}
+.flag {
+  float: right !important;
+}
+.vs {
+  width: 30px !important;
+  float: left !important;
+}
+.footer {
+  margin: 0 auto !important;
+}
+@media screen and (max-width: 576px) {
+  header {
+    max-width: 576px;
+    width: 90%;
+    background-color: #000;
+    color: #fff;
+    border-radius: 15px;
+    overflow: hidden;
+    height: auto;
+    max-width: 576px;
+    margin-top: 50px;
+  }
+}
