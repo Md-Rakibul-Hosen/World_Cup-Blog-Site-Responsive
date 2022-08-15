@@ -32,7 +32,7 @@ a {
   font-size: 70px;
 }
 img {
-  width: 60%;
+  width: 35%;
 }
 .banner-container div {
   width: 48%;
@@ -224,7 +224,8 @@ aside {
     font-size: 40px;
   }
   img {
-    width: 80%;
+    width: 100%;
+    transform: rotate(35deg);
   }
   .banner-container {
     max-width: 576px;
